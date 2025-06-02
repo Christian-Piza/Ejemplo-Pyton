@@ -2,10 +2,10 @@ import numpy as np
 from scipy.linalg import inv
 
 print("Este es un programa encargado de hallar inversas de una matriz")
-filas=int(input("Ingrese el número de filas de la matriz:"))
+filas=int(input("Ingrese el número de filas de la matriz:")) 
 Columnas= int(input("Ingrese el número de columnas de la matriz:"))
 
-if filas != Columnas:
+if filas != Columnas: 
     print("La matriz debe ser cuadrada para porder hallar una inversa")
 else:
     print("Ingrese los elementos de la matriz fila por fila(separados por espacios)")
